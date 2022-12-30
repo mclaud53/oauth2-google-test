@@ -4,7 +4,8 @@ The application to test Google OAuth2 authorization API.
 ## Links
 - [Authentication overview](https://cloud.google.com/docs/authentication)
 - [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
-- [Integrating Google Sign-In into your web app](https://developers.google.com/identity/sign-in/web/sign-in)
+- ~~[Integrating Google Sign-In into your web app](https://developers.google.com/identity/sign-in/web/sign-in)~~ - retired
+- [Sign In with Google for Web](https://developers.google.com/identity/gsi/web/guides/overview)
 - [Google Cloud Platform Credentials](https://console.cloud.google.com/apis/credentials)
 
 ## Environment variables

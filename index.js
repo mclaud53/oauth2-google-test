@@ -9,7 +9,14 @@ app.set('views', __dirname + '/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', expressReactViews.createEngine())
 
+app.get('/deprecated-solution', (req, res) => {
+    res.render('deprecated-solution', {
+        PUBLIC_KEY
+    })
+})
+
 app.get('/', (req, res) => {
+    res.append('Referrer-Policy', 'no-referrer-when-downgrade')
     res.render('main', {
         PUBLIC_KEY
     })
